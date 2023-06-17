@@ -1,0 +1,10 @@
+#configuration
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/fullstack
+    username: root
+    password: root 	
+  jpa:
+    hibernate:
+      ddl-auto: update
